@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Quiz</title>
+  <link rel="stylesheet" href="./quiz.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Animal Quiz</h1>
+    <form id="quiz-form">
+      <div class="question">What is the largest mammal on Earth?</div>
+      <div class="options">
+        <label><input type="radio" name="q1" value="elephant"> Elephant</label><br>
+        <label><input type="radio" name="q1" value="blue whale"> Blue Whale</label><br>
+        <label><input type="radio" name="q1" value="giraffe"> Giraffe</label><br>
+        <label><input type="radio" name="q1" value="hippopotamus"> Hippopotamus</label><br>
+      </div>
+      
+      <div class="question">Which animal can fly without wings?</div>
+      <div class="options">
+        <label><input type="radio" name="q2" value="butterfly"> Butterfly</label><br>
+        <label><input type="radio" name="q2" value="bat"> Bat</label><br>
+        <label><input type="radio" name="q2" value="snake"> Snake</label><br>
+        <label><input type="radio" name="q2" value="flying squirrel"> Flying Squirrel</label><br>
+      </div>
+      <div class="question">Which mammal can fly?</div>
+      <div class="options">
+        <label><input type="radio" name="q3" value="hippopotamus"> Hippopotamus</label><br>
+        <label><input type="radio" name="q3" value="bat"> Bat</label><br>
+        <label><input type="radio" name="q3" value="snake"> Snake</label><br>
+        <label><input type="radio" name="q3" value="flying squirrel"> Flying Squirrel</label><br>
+      </div>
+      <div class="question">Which animal is famous for having a pouch to carry its young? </div>
+      <div class="options">
+        <label><input type="radio" name="q4" value="butterfly"> Butterfly</label><br>
+        <label><input type="radio" name="q4" value="bat"> Bat</label><br>
+        <label><input type="radio" name="q4" value="kangroo"> Kangroo</label><br>
+        <label><input type="radio" name="q4" value="hippopotamus"> Hippopotamus</label><br>
+      </div>
+      <div class="question">Which bird is known for its impressive ability to mimic human speech?</div>
+      <div class="options">
+        <label><input type="radio" name="q5" value="eagle"> Eagle</label><br>
+        <label><input type="radio" name="q5" value="flying squirrel"> Flying Squirrel</label><br>
+        <label><input type="radio" name="q5" value="parrot"> Parrot</label><br>
+        <label><input type="radio" name="q5" value="bat"> Bat</label><br>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
